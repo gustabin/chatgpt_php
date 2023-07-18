@@ -2,7 +2,7 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $apiEndpoint = 'https://api.openai.com/v1/chat/completions';
     $model = 'gpt-3.5-turbo-0613';
-    $apiKey = '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';
+    $apiKey = 'coloca_tu_API_KEY';
 
     $headers = [
         'Content-Type: application/json',
